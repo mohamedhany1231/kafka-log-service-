@@ -1,0 +1,2 @@
+docker exec -it kafka  /bin/bash
+kafka-topics.sh --create --topic=user-activity-log --partitions=1 --replication-factor=1 --bootstrap-server=kafka:9092
